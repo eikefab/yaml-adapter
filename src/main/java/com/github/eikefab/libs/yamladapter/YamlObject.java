@@ -6,7 +6,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 
 import java.io.File;
 
-public class YamlObject<A> {
+class YamlObject<A> {
 
     private final String key;
     private final ConfigurationSection section;
